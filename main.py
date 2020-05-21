@@ -2,7 +2,7 @@ import pickle
 
 import pandas as pd
 
-dataset = pd.read_csv('new_new.csv')
+dataset = pd.read_csv('new_covid.csv')
 X = dataset.iloc[:, :-1].values
 y = dataset.iloc[:, 8].values
 
